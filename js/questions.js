@@ -6,6 +6,7 @@ const questionText = questionPool[randomIntFromInterval(1, 3) - 1];
 let questionHTML = document.getElementById("question");
 let starterHTML = document.getElementById('starter');
 let goalContainerHTML = document.getElementById('goal-container');
+let videoHTML = document.getElementById('video');
 
 const delay = ms => new Promise(res => setTimeout(res, ms));
 
@@ -32,6 +33,10 @@ function fadeInGoal() {
     goalContainerHTML.style.opacity = 1;
 }
 
+function fadeInVideo() {
+    videoHTML.style.opacity = 1;
+}
+
 function randomIntFromInterval(min, max) {
     return Math.floor(Math.random() * (max - min + 1) + min);
 }
@@ -40,6 +45,7 @@ function randomIntFromInterval(min, max) {
 async function execution() {
     writeStarterText();
     await delay(1500)
+    fadeInVideo();
     writeQuestionText();
     await delay(2000)
     fadeInGoal();

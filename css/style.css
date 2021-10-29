@@ -58,6 +58,8 @@ p {
 video {
     margin-bottom: -10px;
     margin-left: -10px;
+    opacity: 0;
+    transition: 1s;
 }
 
 .video-container #video{
