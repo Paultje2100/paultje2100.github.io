@@ -59,7 +59,7 @@ img {
     margin-bottom: -10px;
 }
 
-@media only screen and (max-width: 400px) {
+@media screen and (max-width: 400px) {
     img {
         width: 100vw;
     }
