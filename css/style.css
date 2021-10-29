@@ -5,39 +5,39 @@ body {
     background-color: #202020;
     font-family: Arial, Helvetica, sans-serif;
     overflow: hidden;
-    margin: 0;
 }
 
 .container {
     margin-left: 10%;
     margin-right: 10%;
-    margin-top: 5%;
+    margin-top: 15%;
 }
 
 h3 {
     font-family: birra, sans-serif; 
     color: #da8193;
     margin: 0;
-    font-size: 60px;
+    font-size: 1.5rem;
 }
 
 #question {
     color: #F20530;
     font-family: coolvetica, sans-serif;
-    font-size: 90px;
+    font-size: 2.5rem;
 }
 
 #subtitle {
-    font-size: 15px;
+    font-size: 1.1rem;
 }
 
 .img-container {
+    margin-top: 50px;
     text-align: center;
-    margin-bottom: -10px;
+    margin-bottom: -110px;
 }
 
-#footer-img {
-    width: 1000px;
+img {
+    width: 500px;
 }
 
 .goal {
@@ -53,11 +53,11 @@ footer {
     bottom: 0;
     position: absolute;
     width: 100%;
+    margin-bottom: 10px;
 }
 
 footer p {
     margin: 2.5px;
-    font-size: 16px;
 }
 
 footer #text1 {
@@ -78,4 +78,5 @@ footer #text3 {
     font-weight: 700;
     font-style: normal;
     color: #F20530;
+    font-size: 1.1rem;
 }
