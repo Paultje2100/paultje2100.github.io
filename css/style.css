@@ -62,7 +62,7 @@ video {
 
 .video-container #video{
     position: relative;
-    left: 1px;
+    left: 10px;
 }
 
 @media screen and (max-width: 300px) {
