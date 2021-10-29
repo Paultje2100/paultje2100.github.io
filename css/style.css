@@ -6,7 +6,7 @@
 body {
     background-color: #202020;
     font-family: Arial, Helvetica, sans-serif;
-    overflow: hidden;
+    overflow-x: hidden;
     margin: 0;
     height: 100vh;
 }
@@ -37,18 +37,18 @@ h3 {
     font-family: birra, sans-serif; 
     color: #da8193;
     margin: 0;
-    font-size: 22.5px;
+    font-size: 25px;
 }
 #question {
     color: #F20530;
     font-family: coolvetica, sans-serif;
-    font-size: 35px;
+    font-size: 40px;
 }
 #subtitle {
     font-size: 15px;
 }
 #text {
-    font-size: 10px;
+    font-size: 12px;
 }
 p {
     color: white;
@@ -56,7 +56,7 @@ p {
 
 /*image*/
 img {
-    width: 200px;
+    width: 300px;
 }
 
 @media screen and (max-width: 500px) {
