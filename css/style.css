@@ -38,27 +38,12 @@ h3 {
 }
 
 img {
-    width: 500px;
+    width: 300px;
 }
 
 @media screen and (max-width: 500px) {
     img {
         width: 100vw;
-    }
-}
-
-@media screen and (min-width: 1280px) {
-    h3 {
-        font-size: 30px;
-    }
-    #question {
-        font-size: 60px;
-    }
-    #subtitle {
-        font-size: 20px;
-    }
-    p {
-        font-size: 17.5px;
     }
 }
 
