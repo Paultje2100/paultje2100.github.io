@@ -46,5 +46,14 @@ async function execution() {
 }
 
 execution();
+if(questionText.length < 30) {
+    questionHTML.style.fontSize = 40;
+}
+else if(questionText.length > 30 && questionText.length < 40) {
+    questionHTML.style.fontSize = 35;
+}
+else {
+    questionHTML.style.fontSize = 25;
+}
 
 
