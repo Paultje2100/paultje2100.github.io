@@ -21,6 +21,8 @@ body {
 }
 #goal-container {
     margin-top: 50px;
+    opacity: 0;
+    transition: 2s;
 }
 footer {
     text-align: center;
