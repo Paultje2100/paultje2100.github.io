@@ -1,0 +1,82 @@
+@import url("https://use.typekit.net/aev7wdh.css");
+@import url('http://fonts.cdnfonts.com/css/old-london');
+
+body {
+    background-color: #202020;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+}
+
+.container {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+
+h3 {
+    font-family: birra, sans-serif; 
+    color: #da8193;
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+#question {
+    color: #F20530;
+    font-family: coolvetica, sans-serif;
+    font-size: 2.5rem;
+}
+
+#subtitle {
+    font-size: 1.1rem;
+}
+
+.img-container {
+    margin-bottom: -110px;
+    text-align: center;
+    opacity: 1;
+}
+
+img {
+    width: 450px;
+}
+
+.goal {
+    margin-top: 50px;
+}
+
+p {
+    color: white;
+}
+
+footer {
+    text-align: center;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+footer p {
+    margin: 2.5px;
+}
+
+footer #text1 {
+    font-family: filicudi-color-pride, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+footer #text2 {
+    font-family: bungee, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #0367A6;
+}
+
+footer #text3 {
+    font-family: 'Old London', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #F20530;
+    font-size: 1.1rem;
+}
