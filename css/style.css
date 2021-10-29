@@ -1,6 +1,8 @@
+/*imports*/
 @import url("https://use.typekit.net/aev7wdh.css");
 @import url('http://fonts.cdnfonts.com/css/old-london');
 
+/*standard*/
 body {
     background-color: #202020;
     font-family: Arial, Helvetica, sans-serif;
@@ -9,56 +11,56 @@ body {
     height: 100vh;
 }
 
+/*containers*/
 .container {
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 5%;
 }
-
-h3 {
-    font-family: birra, sans-serif; 
-    color: #da8193;
-    margin: 0;
-    font-size: 25px;
-}
-
-#question {
-    color: #F20530;
-    font-family: coolvetica, sans-serif;
-    font-size: 45px;
-}
-
-#subtitle {
-    font-size: 15px;
-}
-
 .img-container {
     text-align: center;
     margin-bottom: -10px;
 }
-
-img {
-    width: 300px;
-}
-
-@media screen and (max-width: 500px) {
-    img {
-        width: 100vw;
-    }
-}
-
-.goal {
+#goal-container {
     margin-top: 50px;
 }
-
-p {
-    color: white;
-}
-
 footer {
     text-align: center;
     bottom: 0;
     position: absolute;
     left: 50%;
     transform: translate(-50%, 0);
+}
+
+/*text*/
+h3 {
+    font-family: birra, sans-serif; 
+    color: #da8193;
+    margin: 0;
+    font-size: 22.5px;
+}
+#question {
+    color: #F20530;
+    font-family: coolvetica, sans-serif;
+    font-size: 35px;
+}
+#subtitle {
+    font-size: 15px;
+}
+#text {
+    font-size: 10px;
+}
+p {
+    color: white;
+}
+
+/*image*/
+img {
+    width: 200px;
+}
+
+@media screen and (max-width: 500px) {
+    img {
+        width: 100vw;
+    }
 }
