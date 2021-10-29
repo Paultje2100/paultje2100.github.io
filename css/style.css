@@ -38,18 +38,18 @@ h3 {
     font-family: birra, sans-serif; 
     color: #da8193;
     margin: 0;
-    font-size: 25px;
+    font-size: 20px;
 }
 #question {
     color: #F20530;
     font-family: coolvetica, sans-serif;
-    font-size: 40px;
+    font-size: 35px;
 }
 #subtitle {
     font-size: 15px;
 }
 #text {
-    font-size: 12px;
+    font-size: 13px;
 }
 p {
     color: white;
