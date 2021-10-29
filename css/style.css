@@ -47,6 +47,21 @@ img {
     }
 }
 
+@media screen and (min-width: 1280px) {
+    h3 {
+        font-size: 30px;
+    }
+    #question {
+        font-size: 90px;
+    }
+    #subtitle {
+        font-size: 25px;
+    }
+    p {
+        font-size: 20px;
+    }
+}
+
 .goal {
     margin-top: 50px;
 }
