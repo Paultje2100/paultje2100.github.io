@@ -38,17 +38,18 @@ h3 {
     font-family: birra, sans-serif; 
     color: #da8193;
     margin: 0;
-    font-size: 20px;
+    font-size: 30px;
 }
 #question {
     color: #F20530;
     font-family: coolvetica, sans-serif;
+    font-size: 70px;
 }
 #subtitle {
-    font-size: 15px;
+    font-size: 20px;
 }
 #text {
-    font-size: 13px;
+    font-size: 15px;
 }
 p {
     color: white;
@@ -70,5 +71,22 @@ video {
 @media screen and (max-width: 300px) {
     video {
         width: 100vw;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    h3 {
+        font-size: 20px;
+    }
+    #question {
+        color: #F20530;
+        font-family: coolvetica, sans-serif;
+        font-size: 40px;
+    }
+    #subtitle {
+        font-size: 15px;
+    }
+    #text {
+        font-size: 13px;
     }
 }
