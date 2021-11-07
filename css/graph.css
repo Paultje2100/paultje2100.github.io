@@ -1,0 +1,12 @@
+#graphs {
+    max-height: 100vh;
+}
+
+body {
+    background-color: #282829;
+}
+
+.graph-container {
+    width: 100%;
+    text-align: center;
+}
